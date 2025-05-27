@@ -1,0 +1,75 @@
+.zagol{
+    text-transform: uppercase;
+    font-family: roboto;
+    font-size: 48px;
+    font-weight: 700;
+    color: #5b5b5b;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(font/RobotoCondensed-Regular.ttf);
+}
+.zagol h1{
+    text-align: center;
+}
+.info p {
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5b5b5b;
+    width: 188px;
+    height: 128px;
+ }
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 771px;
+    gap: 0 50px;
+}
+
+.svg {
+    width: 72px;
+    height: 72px;
+}
+
+.frame11{
+    background: url(img/Frame11.svg);
+}
+.frame10{
+    background: url(img/Frame10.svg);
+}
+.frame9{
+    background: url(img/Frame9.svg);
+}
+.frame8{
+    background: url(img/Frame8.svg);
+}
+.frame7{
+    background: url(img/Frame7.svg);
+}
+.main-container {
+    display: flex;
+}
+        
+.certificate-container {
+    width: 300px;
+    height: 400px;
+    padding: 70px;
+}
+.lol{
+    display: inline-block;
+    padding: 12px 30px;
+    cursor: pointer;
+    text-decoration: none; 
+    color: white; 
+}
+.lol.ks {
+    background-color: #ee0c0c;
+}
+footer{
+    margin-left: 500px;
+    font-family: roboto;
+    font-size: 16px;
+}
