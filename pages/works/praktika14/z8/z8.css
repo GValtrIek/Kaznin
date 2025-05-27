@@ -1,0 +1,13 @@
+figure {
+    height: 100px;
+    width: 100px;
+    background: #666;
+}
+figure:hover {
+    animation: pos-change;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+@keyframes pos-change {
+    100% {transform: translateX(200px);}
+}

@@ -1,0 +1,11 @@
+button {
+    padding: 1rem 2rem;
+    background: #555;
+    color:blueviolet;
+    border: none;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+button:hover {
+    transform: scale(100%);
+}
