@@ -42,7 +42,7 @@ ul li {
 }
 
 ul { 
-    background: rgb(242, 21, 145);
+    background: rgb(227, 242, 21);
 }
 li {
     padding: 10px;
@@ -57,4 +57,7 @@ li {
 .content aside{
     width: 30%;
     background-color: rgb(134, 143, 132);
+}
+a {
+    color: rgb(3, 3, 3);
 }
